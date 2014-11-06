@@ -1,0 +1,472 @@
+body {
+  background: #FFF;
+  font-family: Verdana;
+  font-size: 8px;
+  color: #FFF;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+#name, #info {
+      position:relative;
+      padding:0px;
+      margin:0px;
+      color: #D95D1E;
+      font-family: Impact, Verdana;
+}
+
+#name {
+      font-size: 45px;
+}
+
+#info {
+      font-size:20px;
+      top:-30px;
+      left:165px;
+}
+
+
+#contactinfo {
+      position:relative;
+      font-size:12px;
+      top:-70px;
+      color: #D95D1E;
+      left:-30px;
+      text-align: right;
+
+}
+/*=================BARRY CSS LAYOUT==================*/
+
+#pagetitle {
+  width: 960px;
+  height:50px;
+  margin: 0 auto;
+  background-color: #FFF; 
+           
+}
+
+#topwrapper {
+     width:960px;
+     margin:auto;
+ }
+
+#csslayoutwrapper {
+  width: 100%;
+  height:400px;
+  min-width: 960px;
+  max-width: 20000px;
+  margin: 0 auto;
+  background-color: #D95D1E;  
+}
+
+#description {
+  width: 200px;
+  position:absolute;
+  color: #FFF;
+  left:-250px;
+  top: 80px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#htmlcss {
+         position:absolute;
+         color: #FFF;
+         left:-350%;
+         top: 50px;
+         width:0px;
+         font-size:2000%;
+         font-family: Impact;
+         line-height:125px;
+}
+
+#barry {
+  width: 200px;
+  position:absolute;
+  color: #FFF;
+  left:-250px;
+  top: 215px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#container {
+  top: 20px;
+  width: 195px;
+  margin: auto 75%;
+  position: relative;  
+}
+
+#outercase {
+  width: 195px;
+  height: 360px;
+  background: #0D0F0F;
+  margin: auto;
+  border-radius: 8px;
+  position: absolute;
+}
+
+#speaker {
+  width:30px;
+  height:5px;
+  position: absolute;
+  background: #1C1C1C;
+  border-radius: 5px;
+  left: 82.5px;
+  top:5px;
+}
+
+#screenborder {
+  width: 185px;
+  height: 350px;
+  background: #000;
+  border-radius: 5px;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+}
+
+#nokialogo {
+  width: 45px;
+  position: relative;
+  left: 70px;
+  top: 16px;
+}
+
+#button {
+  width: 160px;
+  position: absolute;
+  top:320px;
+  left: 13px;
+}
+
+#screen {
+  width: 155px;
+  height: 280px;
+  background: #ccc;
+  position: absolute;
+  left:20px;
+  right:20px;
+  top: 40px;
+  opacity: 0.1;
+}
+
+#screencontent {
+  width: 148px;
+  height: 280px;
+  position: relative;
+  left:23px;
+  top: 42px;
+}
+
+/*menu row*/
+
+#row1 {
+  height: 68px;
+  position: relative;
+  margin: 2px 0px;
+}
+
+
+#panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12 {
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}
+
+#panel1:hover, #panel2:hover, #panel3:hover, #panel4:hover, #panel5:hover, #panel6:hover, #panel7:hover, #panel8:hover, #panel9:hover, #panel10:hover, #panel11:hover, #panel12:hover {
+    background: #11B7F0;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}
+
+#panel1 {
+    position: absolute;
+    background: #115bf0;
+    height: 66px;
+    width: 68px;
+    left: 4px;
+    transition: 500ms;
+}
+
+#panel2 {
+    position: absolute;
+    background: #115bf0;
+    height: 31px;
+    width: 30px;
+    left: 78px;
+}
+
+/*small panel row one top right*/
+#panel3 {
+    position: absolute;
+    background: #115bf0;
+    height: 31px;
+    width: 30px;
+    left: 114px;
+}
+
+#panel4 {
+    position: absolute;
+    background: #115bf0;
+    height: 30px;
+    width: 30px;
+    left: 78px;
+    top: 36px;
+}
+/*small panel row one bottom right*/
+#panel5 {
+    position: absolute;
+    background: #115bf0;
+    height: 30px;
+    width: 30px;
+    left: 114px;
+    top: 36px;
+}
+
+#row2 {
+  height: 68px;
+  position: relative;
+  margin: 2px 0px;
+}
+
+#panel6 {
+    position: absolute;
+    background: #115bf0;
+    height: 66px;
+    width: 140px;
+    left: 4px;
+}
+
+#row3 {
+  height: 68px;
+  position: relative;
+  margin: 2px 0px;
+}
+
+#panel7 { /*BIG SQUARE*/
+    position: absolute;
+    background: #115bf0;
+    height: 66px;
+    width: 68px;
+    left: 40px;
+}
+
+#panel8 {
+    position: absolute;
+    background: #115bf0;
+    height: 31px;
+    width: 30px;
+    left: 4px;
+}
+
+/*small panel row one top right*/
+#panel9 {
+    position: absolute;
+    background: #115bf0;
+    height: 31px;
+    width: 30px;
+    left: 114px;
+}
+
+#panel10 {
+    position: absolute;
+    background: #115bf0;
+    height: 30px;
+    width: 30px;
+    left: 4px;
+    top: 36px;
+}
+/*small panel row one bottom right*/
+#panel11 {
+    position: absolute;
+    background: #115bf0;
+    height: 30px;
+    width: 30px;
+    left: 114px;
+    top: 36px;
+}
+
+#row4 {
+  height: 68px;
+  position: relative;
+  margin: 2px 0px;
+}
+
+#panel12 {
+    position: absolute;
+    background: #115bf0;
+    height: 64px;
+    width: 140px;
+    left: 4px;
+    color: #115bf0;
+}
+
+#whatsapp {
+  position: relative;
+  width: 40px;
+  top: 12px;
+  left: 15px;
+}
+
+
+#ielogo {
+  position: relative;
+  width: 20px;
+  top: 5px;
+  left: 5px;
+}
+
+#onedrive {
+  position: relative;
+  width: 22px;
+  top: 8px;
+  left: 4px;
+}
+
+#people {
+    position: absolute;
+    height: 66px;
+    width: 140px;
+}
+
+#store {
+    position: absolute;
+    width: 45px;
+    top: 5px;
+    left: 12px;
+}
+
+#thanks {
+  font-size: 15px;
+  font-family: Impact;
+  text-align: center;
+}
+
+/*========ABOUT SECTION=============*/
+
+
+#aboutwrapper {
+      position:relative;
+      width: 100%;
+      height:350px;
+      min-width: 900px;
+      max-width: 20000px;
+      margin: 0 auto;
+      background-color: #FFF; 
+ }
+
+#aboutcontainer {
+                position:relative;
+                width:960px;
+                margin:auto;
+} 
+ 
+ 
+#whatdoido, #whereigo, #whatilearn {
+           width: 200px;
+           height: 50px;
+           background: #D95D1E;
+           border-radius: 50px;
+           position:absolute;
+           -webkit-transition: 500ms;
+           transition: 500ms;
+           top: 50px;
+           color: #FFF;
+           font-family: Impact, Verdana;
+           font-size:40px;
+           text-align:center;
+}
+
+#whatdoido:hover, #whereigo:hover, #whatilearn:hover {
+           width: 200px;
+           height: 250px;
+           background: #D95D1E;
+           border-radius: 50px;
+           position:absolute;
+           -webkit-transition: 1000ms;
+           transition: 1000ms;
+           top: 50px;
+        
+}
+
+#whereigo {
+          left: 380px;
+}
+
+#whatilearn {
+          left: 760px;
+}
+
+.para1 {
+       font-size:15px;
+       font-family: Arial;
+       padding:5px;
+       display:none;
+}
+
+#whatdoido:hover .para1 {
+  display:block;
+}
+
+#whereigo:hover .para1 {
+  display:block;
+}
+
+#whatilearn:hover .para1 {
+  display:block;
+}
+
+/*==========footer=============*/
+
+#bottomwrapper {
+      position:relative;
+      width: 100%;
+      height:350px;
+      min-width: 900px;
+      max-width: 20000px;
+      margin: 0 auto;
+      background-color: #D95D1E; 
+ }
+
+#bottominfo {
+      position:relative;
+      width:960px;
+      margin:auto;
+} 
+
+#generalinfo {
+      font-size:30px;
+      font-family: Impact;
+
+}
+
+#stuff {
+       font-size:15px;
+       font-family: Arial;
+       padding:5px;
+       text-align:justify;
+}
+
+
+#sitelink {
+      position:relative;
+      display:block; 
+      width:90px;
+      height:20px;
+      top:-17px;
+      left:525px;
+
+
+}
+
+a {
+  text-decoration:none;
+  color: #FFF;
+ }
+ 
+ #sitelink:hover {
+  text-decoration:none;
+  color: #8CF6E9;
+ }			
